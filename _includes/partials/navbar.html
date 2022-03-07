@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+<nav class="navbar navbar-expand-md navbar-light bg-light mb-3 animate__animated animate__fadeInDown">
   <div class="container">
 
     <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
@@ -17,14 +17,7 @@
                 {{ link.name }}
               </a>
               <div class="dropdown-menu" aria-labelledby="navbar-dropdown{{ forloop.index0 }}">
-                {%- assign parent_link = link -%}
-                {%- for link in parent_link.menu -%}
-                  {%- assign link_styleclass = "dropdown-item" -%}
-                  {%- include partials/get_link.html %}
-                  {{ link_tag }}
-                    {{ link.name }}
-                  </a>
-                {%- endfor %}
+                <a class="dropdown-item" href="http://mqt2019.org"> mqt2019 </a>
               </div>
             </li>
 
@@ -80,18 +73,6 @@
         {%- endfor %}
       </ul>
     </div>
-
-    {%- if site.conference.navigation.logo %}
-      <div class="navbar-brand navbar-logo mr-0 w-25 text-right overflow-hidden">
-        <a href="{{ site.conference.navigation.logo.url }}">
-          {%- if site.conference.navigation.logo.img %}
-            <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
-          {%- else %}
-            {{ site.conference.navigation.logo.name }}
-          {%- endif %}
-        </a>
-      </div>
-    {%- endif %}
 
   </div>
 </nav>
