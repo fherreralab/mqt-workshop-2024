@@ -24,20 +24,22 @@
 
         {% assign cur_letter = last_letter %}
         <div class="speakergroup">
-          <h3>{{ cur_letter }}</h3>
+          <h3>{{null}}</h3>
           <ul class="list-unstyled">
       {% endif %}
 
       <li class="font-weight-light">
-        {% if speaker.hide %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
-        {% else %}
-          <a href="{{ speaker.url | prepend: site.baseurl }}">
-            {{ speaker.first_name }} {{ speaker.last_name }}
+        <div class="card text-white bg-secondary mb-3 border border-dark" style="width: 18rem;">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1607988795691-3d0147b43231?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Speaker Image">
+          <div class="card-body">
+            <h5 class="card-title">{{ speaker.first_name }} {{ speaker.last_name }} </h5>
+            <p class="card-text">Some quick description about the speaker</p>
+            <a href="{{ speaker.url | prepend: site.baseurl }}" class="btn btn-primary">
+            Speaker Details
           </a>
-        {% endif %}
+          </div>
+        </div>
       </li>
-
     {% endfor %}
 
       </ul>

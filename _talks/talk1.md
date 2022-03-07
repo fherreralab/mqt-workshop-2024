@@ -2,6 +2,7 @@
 name: Vim Impetus Placerat Cotidieque Ad
 speakers:
   - Tolga Philip
+  - Erwin Schrodinger 
 categories:
   - Cat B
   - Talk
