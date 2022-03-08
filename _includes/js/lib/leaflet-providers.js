@@ -276,7 +276,7 @@
 					'<a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a>',
 				subdomains: 'abcd',
 				id: 'mapbox.streets',
-				accessToken: '<insert your access token here>',
+				accessToken: 'pk.eyJ1IjoiYmFzdGlhZ2dlciIsImEiOiJjbDBpYXZueHEwMHZsM2JtaTRlb3J1NnExIn0.XJgcgiW6BD0XgFbWhSJQbw',
 			}
 		},
 		Stamen: {

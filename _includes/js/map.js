@@ -1,12 +1,38 @@
 window.conference.mapConfig = (() => {
-    var map = L.map('map').setView([51.505, -0.09], 13);
+    let config;
+    let lang;
 
-    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'your.mapbox.access.token'
-}).addTo(map);
+    let map;
+
+    const setup = (elId) => {
+        map = L.map(elId).setView(config.map.home_coord, config.map.default_zoom);
+
+        L.tileLayer.provider(config.map.map_provider).addTo(map);
+
+        L.easyButton('far fa-star', () => {
+            map.flyTo(config.map.home_coord, config.map.default_zoom);
+        }, lang.location.focus_conf).addTo(map);
+
+        L.control.locate({
+            flyTo: true,
+            strings: {
+                title: lang.location.focus_me
+            }
+        }).addTo(map);
+    };
+
+    const init = (c, l) => {
+        config = c;
+        lang = l;
+
+        const elId = "map";
+
+        if (document.getElementById(elId)) {
+            setup(elId);
+        }
+    };
+
+    return {
+        init: init
+    };
 })();
