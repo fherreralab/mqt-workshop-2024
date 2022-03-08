@@ -4,7 +4,7 @@ speakers:
   - Tolga Philip
   - Erwin Schrodinger 
 categories:
-  - Cat B
+  - Quantum Physics
   - Talk
 ---
 

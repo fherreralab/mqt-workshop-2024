@@ -88,9 +88,6 @@ conference:
         relative_url: /program/
       - name: How to get there
         relative_url: /location/
-      - name: Tickets
-        disabled: true
-        absolute_url: ''
 
   # Live indications
   live:
@@ -121,9 +118,9 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Cat A
+      - name: Classic Physics
         color: info
-      - name: Cat B
+      - name: Quantum Physics
         color: success
 
     # Hide icons on talk overview page

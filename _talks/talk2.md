@@ -4,7 +4,7 @@ speakers:
   - Tolga Philip
   - Alex Rosales
 categories:
-  - Cat A
+  - Classic Physics
   - Talk
-hide: true
+  # hide: true
 ---
