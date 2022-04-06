@@ -1,8 +1,8 @@
 title: Conference 2022
 preposition: ''
 description:  Descripción de la conferencia, propósito, lugar, temas, etc etc
-baseurl: "/workshop"
-url: "https://bm-master.github.io"
+# baseurl: "/workshop"
+# url: "https://bm-master.github.io"
 
 # Build settings
 markdown: kramdown
