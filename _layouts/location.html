@@ -10,13 +10,6 @@
     {% endif %}
   </h1>
 
-  {% assign this_room = page %}
-
-  {% unless site.conference.location.hide %}
-    {% include partials/navbar_rooms.html %}
-  {% endunless %}
-
-  {{ content }}
 
   {% if site.conference.location.map %}
   <div id="map" class="mt-4 mb-3"></div>
@@ -33,5 +26,8 @@
   var marker = L.marker([-33.461724, -70.655709]).addTo(map);
 </script>
   {% endif %}
+
+
+  {{ content }}
 
 {% include partials/footer.html %}

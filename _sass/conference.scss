@@ -30,6 +30,13 @@ $fa-font-path: '/assets/webfonts' !default;
 
 // Adapt Bootstrap Elements
 
+
+.jumbotronCustom{
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
 //   Alert
 .alert {
   //$alert-border-radius

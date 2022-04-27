@@ -2,8 +2,9 @@
 name: Tolga Philip
 first_name: Tolga
 last_name: Philip
+asociation: University of Stamburg, Segovia
 links:
-  - name: Profile
+    name: Profile
     absolute_url: https://github.com
 ---
 

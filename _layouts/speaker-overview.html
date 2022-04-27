@@ -1,18 +1,16 @@
 {% include partials/header.html %}
 
   <h1 class="display-5 mb-4">
-    {% if page.title %}
-      {{ page.title }}
-    {% else %}
-      {{ site.data.lang[site.conference.lang].speaker.overview | default: "Speakers" }}
-    {% endif %}
   </h1>
 
   {{ content }}
 
-  <div class="speakerlist">
+  <div>
+    <h1> Invited Speakers</h1>
+    <br>
+
     {% assign cur_letter = false %}
-    {% assign speakers = site.speakers | sort_natural: 'last_name' %}
+    {% assign speakers = site.speakers | sort_natural: 'first_name' %}
     {% for speaker in speakers %}
 
       {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
@@ -28,8 +26,14 @@
           <ul class="list-unstyled">
       {% endif %}
 
+
+
       <li class="font-weight-light">
-        <div class="card text-white bg-secondary mb-3 border border-dark" style="width: 18rem;">
+        <h5>
+          <b>{{ speaker.first_name }} {{ speaker.last_name }}</b>, {{speaker.asociation}} 
+        </h5>
+
+        <!-- <div class="card text-white bg-secondary mb-3 border border-dark" style="width: 18rem;">
           <img class="card-img-top" src="https://images.unsplash.com/photo-1607988795691-3d0147b43231?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Speaker Image">
           <div class="card-body">
             <h5 class="card-title">{{ speaker.first_name }} {{ speaker.last_name }} </h5>
@@ -38,10 +42,9 @@
             Speaker Details
           </a>
           </div>
-        </div>
+        </div> -->
       </li>
     {% endfor %}
-
       </ul>
     </div>
   </div>

@@ -4,4 +4,4 @@ layout: location
 
 How to get to the conference
 
-Instrucciones de como llegar a la conferencia junto con mapa, etc etc
+A list of all the nearby hotels and other places to get to the conference.
