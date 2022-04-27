@@ -30,11 +30,34 @@ $fa-font-path: '/assets/webfonts' !default;
 
 // Adapt Bootstrap Elements
 
+body{
+    background: url(https://media4.giphy.com/media/TuptaxRZphuyA/giphy.gif?cid=ecf05e47gv9l7vkhe2ssh3m3pa4mh1xq7gxs9ym3doc1e2vb&rid=giphy.gif&ct=g);
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100%;
+}
 
 .jumbotronCustom{
     width: 100vw;
     max-width: 100vw;
     margin-left: calc(50% - 50vw);
+    background-color: azure;
+    // background-image:  url('../patagonia.gif'); 
 }
 
 //   Alert

@@ -1,28 +1,32 @@
-{% include partials/header.html %}
 
-<!-- Jumbotron -->
-<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-dark jumbotronCustom"
-  style="background-image: url('wallpaper.jpg');">
-  <h1 class="mb-3 h2">{{site.description}}</h1>
+<video autoplay muted loop>
+  <source src="../assets/patagonia.mp4" type="video/mp4">
+</video>
+<div class="viewport-header">
+  {% include partials/header.html %}
+  <!-- Jumbotron -->
+  <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-dark jumbotronCustom">
+    <h1 class="mb-3 h2">{{site.description}}</h1>
 
-  <h5>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium
-    labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum
-    neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
-  </h5>
-</div>
-<!-- Jumbotron -->
+    <h5>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium
+      labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum
+      neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
+    </h5>
+  </div>
+  <!-- Jumbotron -->
 
-<h3>Some images of sponsors and supporters</h3>
+  <h3>Some images of sponsors and supporters</h3>
 
-<div class="jumbotron">
-  <h1 class="display-3">{{site.title}}</h1>
+  <div class="jumbotron">
+    <h1 class="display-3">{{site.title}}</h1>
 
     <hr class="my-4">
 
     {{ content }}
 
     <!-- Para modificar el contenido de esta página, ver el archivo index.md -->
+  </div>
+  {% include partials/footer.html %}
 </div>
 
-{% include partials/footer.html %}
