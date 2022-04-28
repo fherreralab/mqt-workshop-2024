@@ -38,6 +38,10 @@ $fa-font-path: '/assets/webfonts' !default;
     
 // }
 
+body{
+  overflow-x: hidden; 
+}
+
 video {
   object-fit: cover;
   width: 100vw;
@@ -59,6 +63,12 @@ video {
     background-color: azure;
     // background-image:  url('../patagonia.gif'); 
 }
+
+.jumbotron{
+  position: sticky;
+}
+
+
 
 //   Alert
 .alert {

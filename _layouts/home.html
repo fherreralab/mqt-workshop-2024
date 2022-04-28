@@ -1,7 +1,7 @@
-
 <video autoplay muted loop>
   <source src="../assets/patagonia.mp4" type="video/mp4">
 </video>
+
 <div class="viewport-header">
   {% include partials/header.html %}
   <!-- Jumbotron -->
@@ -16,17 +16,18 @@
   </div>
   <!-- Jumbotron -->
 
-  <h3>Some images of sponsors and supporters</h3>
+  
 
-  <div class="jumbotron">
-    <h1 class="display-3">{{site.title}}</h1>
-
-    <hr class="my-4">
-
-    {{ content }}
-
-    <!-- Para modificar el contenido de esta página, ver el archivo index.md -->
-  </div>
   {% include partials/footer.html %}
 </div>
 
+<div class="jumbotron text-center">
+  <h1 class="display-3">{{site.title}}</h1>
+
+  <hr class="my-4">
+
+  {{ content }}
+  <h3>Some images of sponsors and supporters</h3>
+
+  <!-- Para modificar el contenido de esta página, ver el archivo index.md -->
+</div>

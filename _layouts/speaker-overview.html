@@ -1,52 +1,77 @@
 {% include partials/header.html %}
 
-  <h1 class="display-5 mb-4">
-  </h1>
+<h1 class="display-5 mb-4">
+</h1>
 
-  {{ content }}
+{{ content }}
 
-  <div>
-    <h1> Invited Speakers</h1>
-    <br>
+<div>
+  <h1> Invited Speakers</h1>
+  <br>
 
-    {% assign cur_letter = false %}
-    {% assign speakers = site.speakers | sort_natural: 'first_name' %}
-    {% for speaker in speakers %}
+  {% assign cur_letter = false %}
+  {% assign speakers = site.speakers | sort_natural: 'first_name' %}
+  <!-- Get the entire list of speakers from site.speakers-->
+  {% for speaker in speakers %}
 
-      {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
-      {% if cur_letter != last_letter %}
-        {% if cur_letter %}
-            </ul>
-          </div>
-        {% endif %}
+  {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
+  {% if cur_letter != last_letter %}
+  {% if cur_letter %}
+  </ul>
+</div>
+{% endif %}
 
-        {% assign cur_letter = last_letter %}
-        <div class="speakergroup">
-          <h3>{{null}}</h3>
-          <ul class="list-unstyled">
-      {% endif %}
+{% assign cur_letter = last_letter %}
+<div class="speakergroup">
+  <h3>{{null}}</h3>
+  <ul class="list-unstyled">
+    {% endif %}
 
 
 
-      <li class="font-weight-light">
-        <h5>
-          <b>{{ speaker.first_name }} {{ speaker.last_name }}</b>, {{speaker.asociation}} 
-        </h5>
-
-        <!-- <div class="card text-white bg-secondary mb-3 border border-dark" style="width: 18rem;">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1607988795691-3d0147b43231?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Speaker Image">
-          <div class="card-body">
-            <h5 class="card-title">{{ speaker.first_name }} {{ speaker.last_name }} </h5>
-            <p class="card-text">Some quick description about the speaker</p>
-            <a href="{{ speaker.url | prepend: site.baseurl }}" class="btn btn-primary">
-            Speaker Details
-          </a>
-          </div>
-        </div> -->
-      </li>
+    <li class="font-weight-light">
+      <h5>
+        <b>{{ speaker.first_name }} {{ speaker.last_name }}</b>, {{speaker.asociation}}
+      </h5>
+    </li>
     {% endfor %}
-      </ul>
+  </ul>
+</div>
+
+<br>
+<!-- ORGANIZERS SECTION -->
+<h1>Organizers</h1>
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-2 text-center">
+      <img src="../assets/organizers/fherrera.jpg" class="img-thumbnail" alt="FelipeHerreraPicture">
+      <p><b>Felipe Herrera Urbina</b>, Universidad de Santiago de Chile </p>
+    </div>
+
+    <div class="col-md-2 text-center ">
+      <img src="../assets/organizers/MarkusRaschke.jpg" class="img-thumbnail" alt="MarkusRaschkePicture">
+      <p><b>Markus Raschke</b>, University of Colorado</p>
+    </div>
+
+    <div class="col-md-2 text-center ">
+      <img src="../assets/organizers/RosarioGonzalesFeres.jpg" class="img-thumbnail" alt="RosarioGonzalesFeresPicture">
+      <p><b>Rosario Gonzales-Feres</b>, Universidad de Granada</p>
+    </div>
+
+    <div class="col-md-2 text-center">
+      <img src="../assets/organizers/SadrineHeutz.jpg" class="img-thumbnail" alt="SandrineHeutzPicture">
+      <p><b>Sandrine Heutz</b>, University College London</p>
+    </div>
+    
+    <div class="col-md-2 text-center">
+      <img src="../assets/organizers/JeffreyOwrutsky.jpg" class="img-thumbnail" alt="JeffreyOwrutskyPicture">
+      <p><b>Jeffrey Owrutsky</b>, Naval Research Laboratory</p>
     </div>
   </div>
+
+
+</div>
+</div>
 
 {% include partials/footer.html %}
