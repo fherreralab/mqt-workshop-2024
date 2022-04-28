@@ -10,7 +10,7 @@
   <br>
 
   {% assign cur_letter = false %}
-  {% assign speakers = site.speakers | sort_natural: 'first_name' %}
+  {% assign speakers = site.speakers | sort_natural: 'last_name' %}
   <!-- Get the entire list of speakers from site.speakers-->
   {% for speaker in speakers %}
 
