@@ -9,6 +9,7 @@
     {%- endif -%}
   </h1>
 
+  <!-- POSIBLE ELIMINAR -->
   {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
       {%- for d in site.data.program.days -%}
@@ -27,6 +28,7 @@
       <div class="tab-pane {%- if forloop.index == 1 %} active{% endif %}" id="{{ day_hash }}" role="tabpanel" aria-labelledby="tab-{{ day_hash }}">
     {%- endif %}
 
+    <!-- Para configurar los días es necesario  cambiarlo desde el config.yml y el program.yml-->
     <div class="sticky-top syncscroll overflow-hidden" name="sync-table">
       <table class="table mb-0 mx-auto">
         <thead>
@@ -35,7 +37,7 @@
             <th class="col-space p-0" scope="col"></th>
             {%- assign nbr_rooms = d.rooms | size -%}
             {%- for r in d.rooms -%}
-              {%- assign room = site.rooms | where: 'name', r.name | first %}
+              {%- assign room = d.rooms | where: 'name', r.name | first %}
               <th scope="col" class="text-center">
                 {%- if room.hide or site.conference.location.hide -%}
                   {{- room.name -}}
@@ -54,6 +56,7 @@
       </table>
     </div>
 
+    
     <div class="syncscroll overflow-y-hidden" name="sync-table">
       <table class="table mx-auto">
         <tbody>

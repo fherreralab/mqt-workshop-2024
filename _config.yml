@@ -118,10 +118,27 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Classic Physics
+      - name: Cat 1
         color: info
-      - name: Quantum Physics
+      - name: Cat 2
         color: success
+      - name: Coffe Break
+        color: secondary
+      - name: Coffe Break/Conference Picture
+        color: secondary 
+      - name: Conference Dinner
+        color: secondary 
+      - name: Torres del Paine Tour Day
+        color: danger
+      - name: Opening
+        color: dark
+      - name: Closing
+        color: dark
+      - name: Lunch
+        color: secondary
+      - name: Poster Session + coffe/snacks
+        color: warning
+
 
     # Hide icons on talk overview page
     hide_icons: false
@@ -145,7 +162,7 @@ conference:
     url: '/program'
 
     # Time steps in program table
-    time_steps: 15 # in minutes
+    time_steps: 20 # in minutes
 
     # Show intermediary time steps (next to full hours)
     show_alltimes: true
