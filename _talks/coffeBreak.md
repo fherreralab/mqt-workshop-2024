@@ -1,7 +1,7 @@
 ---
 name: Coffe Break
 speakers:
-  - None
+  - Speaker Test
 categories:
   - Coffe Break
   - Talk

@@ -1,7 +1,7 @@
 ---
 name: Torres del Paine Tour Day
 speakers:
-  - Tour day
+  - Speaker Test
 categories:
   - Torres del Paine Tour Day
 ---
