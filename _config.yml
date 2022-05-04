@@ -122,9 +122,9 @@ conference:
         color: info
       - name: Cat 2
         color: success
-      - name: Coffe Break
+      - name: Coffee Break
         color: secondary
-      - name: Coffe Break/Conference Picture
+      - name: Coffee Break/Conference Picture
         color: secondary 
       - name: Conference Dinner
         color: secondary 
@@ -136,7 +136,9 @@ conference:
         color: dark
       - name: Lunch
         color: secondary
-      - name: Poster Session + coffe/snacks
+      - name: Poster Session + coffee/snacks
+        color: warning
+      - name: Nombre bien extensivo a ver q tal
         color: warning
 
 

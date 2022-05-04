@@ -42,6 +42,10 @@ body{
   overflow-x: hidden; 
 }
 
+a, a:hover{
+  text-decoration: none;
+}
+
 video {
   object-fit: cover;
   width: 100vw;

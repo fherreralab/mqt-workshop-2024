@@ -174,47 +174,5 @@ days:
         - name: Conference Dinner
           time_start: '18:00'
           time_end: '18:40'
-          
 
-  - name: Friday
-    talks:
-        - name: Charla 1
-          time_start: '08:40'
-          time_end: '09:20'
-
-        - name: Charla 1
-          time_start: '09:20'
-          time_end: '10:00'
-
-        - name: Coffe Break
-          time_start: '10:00'
-          time_end: '10:40'
-
-        - name: Charla 2
-          time_start: '10:40'
-          time_end: '11:20'
-
-        - name: Charla 2
-          time_start: '11:20'
-          time_end: '12:00'
-
-        - name: Charla 3
-          time_start: '12:00'
-          time_end: '12:20'
-
-        - name: Lunch
-          time_start: '12:20'
-          time_end: '14:00'
-
-        - name: Charla 1
-          time_start: '14:00'
-          time_end: '14:20'
-
-        - name: Charla 1
-          time_start: '14:20'
-          time_end: '15:00'
-
-        - name: Closing
-          time_start: '15:00'
-          time_end: '15:40'
           
