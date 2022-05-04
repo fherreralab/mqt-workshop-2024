@@ -1,8 +1,8 @@
 ---
-name: Coffe Break/Conference Picture
+name: Coffee Break/Conference Picture
 speakers: 
   - Speaker Test
 categories:
-  - Coffe Break/Conference Picture
+  - Coffee Break/Conference Picture
   - Talk
 ---

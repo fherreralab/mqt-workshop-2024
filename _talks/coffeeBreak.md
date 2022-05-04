@@ -3,7 +3,7 @@ name: Coffe Break
 speakers:
   - Speaker Test
 categories:
-  - Coffe Break
+  - Coffee Break
   - Talk
 ---
 
