@@ -1,5 +1,5 @@
 ---
-name: Coffe Break
+name: Coffee Break
 speakers:
   - Speaker Test
 categories:
