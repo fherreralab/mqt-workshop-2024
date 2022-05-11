@@ -9,35 +9,23 @@
   <h1> Invited Speakers</h1>
   <br>
 
-  {% assign cur_letter = false %}
   {% assign speakers = site.speakers | sort_natural: 'last_name' %}
   <!-- Get the entire list of speakers from site.speakers-->
   {% for speaker in speakers %}
 
-  {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
-  {% if cur_letter != last_letter %}
-  {% if cur_letter %}
-  </ul>
-</div>
-{% endif %}
-
-{% assign cur_letter = last_letter %}
-<div class="speakergroup">
-  <h3>{{null}}</h3>
-  <ul class="list-unstyled">
-    {% endif %}
-
-
-
-    <li class="font-weight-light">
-      <h5>
-        <b>{{ speaker.first_name }} {{ speaker.last_name }}</b>, {{speaker.asociation}}
-      </h5>
-    </li>
+  {% if speaker.first_name != "Speaker" %}
+    {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
+    <div class="speakergroup">
+      <ul class="list-unstyled py-1">
+        <li class="font-weight-light">
+          <h5>
+            <b>{{ speaker.first_name }} {{ speaker.last_name }}</b>, {{speaker.asociation}}
+          </h5>
+        </li>
+        {% endif %}
     {% endfor %}
-  </ul>
-</div>
-
+      </ul>
+    </div>
 <br>
 <!-- ORGANIZERS SECTION -->
 <h1>Organizers</h1>
@@ -69,7 +57,6 @@
       <p><b>Jeffrey Owrutsky</b>, Naval Research Laboratory</p>
     </div>
   </div>
-
 
 </div>
 </div>

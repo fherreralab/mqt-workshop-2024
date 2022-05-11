@@ -46,6 +46,15 @@ a, a:hover{
   text-decoration: none;
 }
 
+.divRound{
+  border-radius: 10px;
+  background-color: #a9d9e3;
+}
+
+.navRound{
+  border-radius: 10px;
+}
+
 video {
   object-fit: cover;
   width: 100vw;
@@ -57,22 +66,19 @@ video {
 
 .viewport-header {
   position: relative;
-  height: 100%;
+  height: 95%;
 }
 
 .jumbotronCustom{
     width: 100vw;
     max-width: 100vw;
     margin-left: calc(50% - 50vw);
-    background-color: azure;
-    // background-image:  url('../patagonia.gif'); 
+    background-color: #e9ecef;
 }
 
 .jumbotron{
   position: sticky;
 }
-
-
 
 //   Alert
 .alert {
