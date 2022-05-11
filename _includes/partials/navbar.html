@@ -1,37 +1,39 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light mb-3 animate__animated animate__fadeInDown">
   <div class="container">
-
     <a class="navbar-brand btn btn-outline-info text-info navRound" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         {%- for link in site.conference.navigation.links -%}
-          {%- if link.menu %}
-            <li class="nav-item dropdown">
-              <a class="nav-link mx-4 btn btn-outline-info text-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Versiones anteriores
-              </a>
-                <div class="dropdown-menu">
-                    <a href="http://mqt2019.org" class="dropdown-item">MQT 2019</a>
-            </div>
-            </li>
+        {%- if link.menu %}
+        <li class="nav-item dropdown">
 
-          {%- else %}
-            <li class="nav-item {% if page.url contains link.relative_url %}active{% endif %}">
-              {%- assign link_styleclass = "nav-link mx-4 btn btn-outline-info text-info" -%}
-              {%- include partials/get_link.html -%}
-              {{ link_tag }}
-                {{ link.name }}
-              </a>
+          <a class="nav-link mx-4 btn btn-outline-info text-info dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Versiones anteriores
+          </a>
+          <ul class="dropdown-menu mx-4" id="ulDrop">
+            <li>
+              <a href="http://mqt2019.org" class="dropdown-item mx-4 bg-transparent">MQT 2019</a>
             </li>
-          {%- endif -%}
+          </ul>
+        </li>
+
+        {%- else %}
+        <li class="nav-item {% if page.url contains link.relative_url %}active{% endif %}">
+          {%- assign link_styleclass = "nav-link mx-4 btn btn-outline-info text-info" -%}
+          {%- include partials/get_link.html -%}
+          {{ link_tag }}
+          {{ link.name }}
+          </a>
+        </li>
+        {%- endif -%}
         {%- endfor %}
       </ul>
     </div>
-
   </div>
 </nav>
