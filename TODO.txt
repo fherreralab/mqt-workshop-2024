@@ -2,3 +2,7 @@ Crear páginas de registro y abstract submission
 
 Registro: Register information about 
 Submission: Google doc con link para subir el abstract
+
+
+SpeakerTest -> Speaker name
+Charla1 -> Talk 1
