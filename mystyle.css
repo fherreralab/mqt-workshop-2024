@@ -1,0 +1,33 @@
+.colorButton{
+    background-color: #17A2B8;
+    color: white;
+    border-color: #17A2B8
+}
+.colorButton:hover{
+    background-color: #138496;
+    color: white;
+    border-color: #138496;
+}
+
+.bg-submission{
+    background-color: #FDF7E2;
+
+}
+
+.mandatory{
+    z-index: 0 ;
+    position: relative;
+}
+body{
+    overflow-x: hidden; 
+    width: 100%;
+  }
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
