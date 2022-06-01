@@ -1,7 +1,7 @@
 ---
 name: Poster Session + coffee/snacks
 speakers:
-  - Speaker Test
+  - Speaker Name
 categories:
   - Poster Session + coffee/snacks
 ---

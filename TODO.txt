@@ -5,4 +5,15 @@ Submission: Google doc con link para subir el abstract
 
 
 SpeakerTest -> Speaker name
-Charla1 -> Talk 1
+Charlax -> Talk x 
+Speaker with the same number
+
+Habilitar descargar un template
+
+Download abstract here
+
+mantener header en abstract submission page y register page
+texto ajustado a la izquierda y botones al medio
+
+
+Information about mqt 2022 workshop will be available soon

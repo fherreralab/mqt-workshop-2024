@@ -1,7 +1,7 @@
 ---
 name: Closing
 speakers:
-  - Speaker Test
+  - Speaker Name
 categories:
   - Closing
 ---

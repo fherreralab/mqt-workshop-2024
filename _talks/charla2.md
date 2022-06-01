@@ -1,7 +1,7 @@
 ---
 name: Charla 2
 speakers:
-  - Speaker Test
+  - Speaker Name
 categories:
   - Cat 2
   - Talk

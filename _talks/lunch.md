@@ -1,7 +1,7 @@
 ---
 name: Lunch
 speakers:
-  - Speaker Test
+  - Speaker Name
 categories:
   - Lunch
 ---

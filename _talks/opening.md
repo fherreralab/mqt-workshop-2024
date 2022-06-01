@@ -1,7 +1,7 @@
 ---
 name: Opening
 speakers:
-  - Speaker Test
+  - Speaker Name
 categories:
   - Opening
 ---

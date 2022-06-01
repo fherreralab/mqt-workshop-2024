@@ -1,7 +1,7 @@
 ---
 name: Coffee Break
 speakers:
-  - Speaker Test
+  - Speaker Name
 categories:
   - Coffee Break
   - Talk
