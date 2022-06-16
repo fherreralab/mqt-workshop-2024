@@ -1,5 +1,5 @@
 ---
-name: Charla 3
+name: Talk 3
 speakers:
   - Speaker Name
 categories:
