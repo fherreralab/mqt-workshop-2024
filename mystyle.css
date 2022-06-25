@@ -8,6 +8,16 @@
     color: white;
     border-color: #138496;
 }
+.colorButtonBorder{
+    color: #17A2B8 !important;
+    border-color: #17A2B8 !important;
+}
+
+.colorButtonBorder:hover{
+    color: #16857F !important;
+    border-color: #17A2B8 !important;
+    background-color: #17A2B8 !important;
+}
 
 .bg-submission{
     background-color: #FDF7E2;
