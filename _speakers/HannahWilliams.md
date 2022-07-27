@@ -1,6 +1,6 @@
 ---
-name: Hanna Williams
-first_name: Hanna 
+name: Hannah Williams
+first_name: Hannah
 last_name: Williams
 asociation: Durham University
 ---
