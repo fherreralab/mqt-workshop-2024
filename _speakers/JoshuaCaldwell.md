@@ -1,6 +1,6 @@
 ---
-name: Josh Caldwell
-first_name: Josh
+name: Joshua Caldwell
+first_name: Joshua
 last_name: Caldwell
 asociation: Vanderbilt University 
 ---
