@@ -68,13 +68,14 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-darwin-19
   x86_64-darwin-20
 
 DEPENDENCIES
-  bundler (~> 2.2.32)
+  bundler (~> 2.3.7)
   jekyll-theme-conference!
   rake (~> 12.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.32
+   2.3.7
