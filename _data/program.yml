@@ -7,15 +7,7 @@ days:
     talks:
       - name: Torres del Paine Tour Day
         time_start: '08:00'
-        time_end: '12:00'
-      
-      - name: Torres del Paine Tour Day
-        time_start: '12:00'
-        time_end: '16:00'
-      
-      - name: Torres del Paine Tour Day
-        time_start: '16:00'
-        time_end: '18:00'
+        time_end: '19:00'
 
   - name: Tuesday
     talks:
@@ -23,98 +15,106 @@ days:
         time_start: '09:00'
         time_end: '09:20'
 
-      - name: Charla 1
+      - name: Quantifying scattering rates in the electronic strong light-matter coupling regime
         time_start: '09:20'
         time_end: '10:00'
       
-      - name: Coffe Break
+      - name: Collective dynamics Using Truncated Equations (CUT-E) simulating the collective strong coupling regime with few-molecule models
         time_start: '10:00'
         time_end: '10:40'
-      
-      - name: Charla 2
+
+      - name: Coffe Break
         time_start: '10:40'
-        time_end: '11:20
-        '
-      - name: Charla 2
+        time_end: '11:20'
+      
+      - name: Pending
         time_start: '11:20'
         time_end: '12:00'
 
-      - name: Charla 3
+      - name: Engineering Organic Molecules with Long-Lived Quantum Coherence
         time_start: '12:00'
         time_end: '12:20'
+
+      - name: Single-Photon Emission due to non-Hermitian Anharmonicity
+        time_start: '12:20'
+        time_end: '12:40'
       
       - name: Lunch
-        time_start: '12:20'
+        time_start: '12:40'
         time_end: '14:00'
       
-      - name: Charla 1
+      - name: Suppressed reactivity via cavity-induced selective vibrational cooling
         time_start: '14:00'
-        time_end: '14:20'
+        time_end: '14:40'
 
-      - name: Charla 1
-        time_start: '14:20'
-        time_end: '15:00'
+      - name: Strong Coupling and Extreme Anisotropy in Infrared Nanophotonics
+        time_start: '14:40'
+        time_end: '15:20'
 
-      - name: Coffe Break
-        time_start: '15:00'
-        time_end: '15:40'
-
-      - name: Charla 2
-        time_start: '15:40'
-        time_end: '16:20'
-
-      - name: Charla 3
-        time_start: '16:20'
-        time_end: '17:00'
+      - name: Poster Session
+        time_start: '15:20'
+        time_end: '17:20'
 
   - name: Wednesday
     talks:
-        - name: Charla 1
-          time_start: '08:20'
-          time_end: '09:00'
-
-        - name: Charla 1
+        - name: Pending2
           time_start: '09:00'
           time_end: '09:40'
 
-        - name: Charla 2
+        - name: Molecular Spin Clock Transitions
           time_start: '09:40'
-          time_end: '10:00'
+          time_end: '10:20'
 
-        - name: Coffe Break
-          time_start: '10:00'
+        - name: Semi-empirical spin-lattice relaxation models for molecular spin qubits in metal-organic frameworks
+          time_start: '10:20'
           time_end: '10:40'
 
-        - name: Charla 2
+        - name: Coffe Break
           time_start: '10:40'
           time_end: '11:20'
 
-        - name: Charla 2
-          time_start: '11:20'
-          time_end: '12:00'
+        - name: Spin Transport and Magnetoresistance in Inorganic Complexes
+          time_start: '10:40'
+          time_end: '11:20'
 
-        - name: Charla 3
+        - name: Enantioselective Topological Frequency Conversion
           time_start: '12:00'
           time_end: '12:20'
+
+        - name: Low-dimensional material structures with adatoms, how electron tunneling influences optical properties
+          time_start: '12:20'
+          time_end: '12:40'
 
         - name: Lunch
           time_start: '12:20'
           time_end: '14:00'
       
-        - name: Charla 1
+        - name: Plasmonic Cavities; Strong Coupling And Beyond
           time_start: '14:00'
-          time_end: '14:20'
+          time_end: '14:40'
 
-        - name: Charla 1
-          time_start: '14:20'
+        - name: Quantum vibrational microscopy and sensing
+          time_start: '14:40'
           time_end: '15:00'
 
         - name: Coffe Break
-          time_start: '15:00'
+          time_start: '15:20'
           time_end: '15:40'
 
-        - name: Poster Session + coffe/snacks
+        - name: Charla 1
           time_start: '15:40'
+          time_end: '16:20'
+
+        - name: Charla 1
+          time_start: '16:20'
+          time_end: '16:40'
+
+        - name: Charla 1
+          time_start: '16:20'
+          time_end: '16:40'
+
+        - name: Charla 1
+          time_start: '16:40'
           time_end: '17:00'
 
   - name: Thursday

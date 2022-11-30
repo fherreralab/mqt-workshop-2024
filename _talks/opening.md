@@ -1,7 +1,7 @@
 ---
 name: Opening
 speakers:
-  - Speaker Name
+  - Aldo Delgado
 categories:
   - Opening
 ---

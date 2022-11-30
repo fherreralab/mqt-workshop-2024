@@ -1,6 +1,6 @@
 ---
-name: Stephane Kena-Cohen
-first_name: Stephane 
-last_name: Kena-Cohen
+name: Stéphane Kená-Cohen
+first_name: Stéphane 
+last_name: Kená-Cohen
 asociation: Polytechnique Montreal Technological University 
 ---

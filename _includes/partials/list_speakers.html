@@ -10,7 +10,7 @@
     {{- speaker_short -}}
   {%- else -%}
     <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
-      {{- speaker_short -}}
+      {{- speaker_short -}} {{" "}} {{- speaker.asociation -}}
     </a>
   {%- endif -%}
 

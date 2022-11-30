@@ -1,0 +1,8 @@
+---
+name: Suppressed reactivity via cavity-induced selective vibrational cooling
+speakers:
+  - Blake Simpkins
+categories:
+  - Talk
+---
+**Molecular vibrations can couple to optical cavities to create new hybrid states called polaritons.  The magnitude of this coupling, measured as the vacuum Rabi splitting (Ω), correlates with modified materials processes such as photon emission, molecular energy transfer, and chemical reaction rates.  In this talk, I will first discuss modeling and active control of cavity coupling to molecular vibrations.  Next, I will discuss results indicating modified chemical reaction rates for an alcoholysis addition reaction forming urethane monomers.  Cavity tuning was used to selectively couple to reactant, solvent, and product vibrational modes resulting in a chemical response that is cavity tuning dependent.  An open quantum system model attempting to rationalize such reaction suppression is presented which identifies bond-selective cooling via cavity-induced stationary population redistribution as the culprit.**
