@@ -97,19 +97,19 @@ days:
           time_start: '14:40'
           time_end: '15:00'
 
+        - name: Strongly Coupled Organic Molecules, Insights from Atomistic MD Simulations
+          time_start: '15:00'
+          time_end: '15:20'
+
         - name: Coffe Break
           time_start: '15:20'
           time_end: '15:40'
 
-        - name: Charla 1
+        - name: New Platforms for Polariton Reaction Dynamics
           time_start: '15:40'
           time_end: '16:20'
 
-        - name: Charla 1
-          time_start: '16:20'
-          time_end: '16:40'
-
-        - name: Charla 1
+        - name: Controlling the infrared vacuum field via molecular polaritons in the strong coupling regime
           time_start: '16:20'
           time_end: '16:40'
 
@@ -119,60 +119,80 @@ days:
 
   - name: Thursday
     talks:
-        - name: Charla 1
-          time_start: '08:20'
-          time_end: '09:00'
-
-        - name: Charla 1
+        - name: Laser Cooling Molecules
           time_start: '09:00'
           time_end: '09:40'
 
-        - name: Charla 2
+        - name: Controlling ultracold RbCs molecules for applications in quantum technology
           time_start: '09:40'
-          time_end: '10:00'
+          time_end: '10:20'
 
-        - name: Coffe Break/Conference Picture
-          time_start: '10:00'
+        - name: Towards cavity-controlled ultracold chemistry
+          time_start: '10:20'
           time_end: '10:40'
 
-        - name: Charla 2
+        - name: Coffe Break
           time_start: '10:40'
           time_end: '11:20'
 
-        - name: Charla 2
+        - name: Quantum-chemical calculations for ultracold molecular physics experiments
           time_start: '11:20'
           time_end: '12:00'
 
-        - name: Charla 3
+        - name: Few-body and many-body games in a quantum gas with Rydberg impurities
           time_start: '12:00'
-          time_end: '12:20'
+          time_end: '12:40'
 
-        - name: Lunch
-          time_start: '12:20'
+        - name: Lunch and Conference Picture
+          time_start: '12:40'
           time_end: '14:00'
 
-        - name: Charla 1
+        - name: Microwave shielding of ultracold molecules
           time_start: '14:00'
-          time_end: '14:20'
+          time_end: '14:40'
 
-        - name: Charla 1
-          time_start: '14:20'
-          time_end: '15:00'
-
+        - name: Exploring the role of entanglement in disordered polaritonic chemistry
+          time_start: '14:40'
+          time_end: '15:20'
+        
         - name: Coffe Break
-          time_start: '15:00'
+          time_start: '15:20'
           time_end: '15:40'
 
-        - name: Charla 2
+        - name: Quantum coherence in vibrational polaritons; reactivity, cooperativity, and molecular coupling
           time_start: '15:40'
           time_end: '16:20'
 
-        - name: Charla 3
+        - name: Noise in quantum rigid rotors
           time_start: '16:20'
-          time_end: '17:00'
+          time_end: '16:40'
 
         - name: Conference Dinner
           time_start: '18:00'
           time_end: '18:40'
+  
+  - name: Friday
+    talks:  
+        - name: TTo be Announced2
+          time_start: '09:00'
+          time_end: '09:40'
+        
+        - name: Monitoring Coherences in Elementary Molecular Events by Ultrafast Nonlinear X-ray Spectroscopy
+          time_start: '09:40'
+          time_end: '10:20'
+        
+        - name: Dynamics of Vibration-Cavity Polaritons; New Absorbers but the Same Interpretation
+          time_start: '10:20'
+          time_end: '10:40'
 
-          
+        - name: Coffe Break
+          time_start: '10:40'
+          time_end: '11:20'
+        
+        - name: Collective response in light-matter interaction; The interplay between strong coupling, local dynamics and disorder
+          time_start: '11:20'
+          time_end: '12:00'
+
+        - name: Quantum dynamics of molecules and quantum dots in dissipative nanocavities
+          time_start: '12:00'
+          time_end: '12:40'
