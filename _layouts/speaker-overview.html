@@ -14,15 +14,18 @@
   {% for speaker in speakers %}
 
   {% if speaker.first_name != "Speaker" %}
-    {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
-    <div class="speakergroup">
-      <ul class="list-unstyled py-1">
-        <li class="font-weight-light">
-          <h5>
-            <b>{{ speaker.first_name }} {{ speaker.last_name }}</b>, {{speaker.asociation}}
-          </h5>
-        </li>
-        {% endif %}
+    {% if speaker.status == "invited" %}
+    
+      {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
+      <div class="speakergroup">
+        <ul class="list-unstyled py-1">
+          <li class="font-weight-light">
+            <h5>
+              <b>{{ speaker.first_name }} {{ speaker.last_name }}</b>, {{speaker.asociation}}
+            </h5>
+          </li>
+          {% endif %}
+          {% endif %}
     {% endfor %}
       </ul>
     </div>
