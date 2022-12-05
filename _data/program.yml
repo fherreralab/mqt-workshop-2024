@@ -57,7 +57,7 @@ days:
 
   - name: Wednesday
     talks:
-        - name: Pending2
+        - name: Molecular Spins for Quantum Technologies
           time_start: '09:00'
           time_end: '09:40'
 
