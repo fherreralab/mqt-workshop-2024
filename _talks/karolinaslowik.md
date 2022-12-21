@@ -5,6 +5,18 @@ speakers:
 categories:
   - Talk
 ---
+M.Kosik (a), M.Müller (b), G.Bryant (c), A.Ayuela (d), C.Rockstuhl (b,e), M.Pelc (a), K.Słowik (a)
+
+(a) Institute of Physics, Nicolaus Copernicus University in Toruń, 87-100 Toruń, Poland
+
+(b) Institute of Theoretical Solid State Physics, Karlsruhe Institute of Technology, 76131 Karlsruhe, Germany
+
+(c) Joint Quantum Institute, University of Maryland and National Institute of Standards and Technology, College Park, Maryland 20742, USA and Nanoscale Device Characterization Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899
+
+(d) Donostia International Physics Center (DIPC), Paseo Manuel Lardizabal 4, 20018 Donostia-San Sebastián, Spain and Centro de Física de Materiales, CFM-MPC CSIC-UPV/EHU, Paseo Manuel Lardizabal 5, 20018 Donostia-San Sebastián, Spain
+
+(e) Institute of Nanotechnology, Karlsruhe Institute of Technology, 76021 Karlsruhe, Germany
+
 Depending on their chemical compounds and geometry, low-dimensional material structures such as 1D atomic chains or 2D nanoflakes offer a variety of electronic, optical and material properties. They can be used as elementary metal/semiconductor/insulator building blocks in heterostructures realizing nanoscaled optoelectronics. They may support topological properties or plasmonic optical response. The latter can be tuned by electronic or optical means or in presence of atomic defects (adatoms) [1]. In reverse, a flake or chain can be exploited to modulate the dynamics of adatoms positioned in its vicinity [2].
 
 ![alt text](../../assets/speakers_figures/karolinaSlowik.png)

@@ -5,6 +5,14 @@ speakers:
 categories:
   - Talk
 ---
+Johan F. Triana (a), Mauricio Arias (b), and Felipe Herrera (a,c)
+
+(a) Departamento de Física, Universidad de Santiago de Chile, Santiago, Chile
+
+(b) Departamento de Física, Universidad de Concepción, Concepción, Chile
+
+(c) ANID-Millennium Institute for Research in Optics, Chile
+
 The generation of non-classical light and optical phase control are two areas of intense research in quantum optics and nanophotonics. Although efforts have primarily focused on the optical regime, novel nanoscale devices offer new possibilities for studying quantum optical effects in the mid-infrared region. 
 
 We propose novel schemes for modifying the photon statistics of an electromagnetic field of an infrared Fabry-Pérot cavity by driving one cavity mirrors with ultrafast UV pulses that adiabatically modulate the cavity resonance frequency. Under strong coupling of the mid-infrared vacuum with molecular vibrations, we demonstrate that large modifications of the Mandel factor and squeezing parameter are possible by initializing the system in the ground and first excited polariton eigenstates [1]. 

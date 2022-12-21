@@ -5,6 +5,17 @@ speakers:
 categories:
   - Talk
 ---
+J. F. Triana (1), M. Arias (2), J. Nishida (3), E. A. Muller (4), R. Wilcken (3), S. C. Johnson (3), A. Delgado (2,5), M. B. Raschke (3), and F. Herrera (1,5)
+
+(1) Department of Physics, Universidad de Santiago de Chile, Av. Victor Jara, 3493 Santiago, Chile
+
+(2) Departamento de Física, Facultad de Ciencias Físicas y Matemáticas, Universidad de Concepción, Concepción, Chile
+
+(3) Department of Physics and JILA, University of Colorado, Boulder, Colorado 80309, USA
+
+(4) Department of Chemistry, Colgate University, Hamilton, New York 13346, USA
+
+(5) ANID-Millennium Institute for Research in Optics, Concepción, Chile
 
 We show a versatile semi-empirical quantum optics approach to describe light-matter interaction in a system driven by mid-IR femtosecond laser pulses. This model is not limited to describe observable dynamics of the coupled system but also provides physical insight for the implementation of coherent phase rotations and anharmonic intensity-dependent phase shifts, suggesting novel applications in the development of weak and strongly coupled infrared nanophotonics hardware for quantum control and quantum information processing [1].
 

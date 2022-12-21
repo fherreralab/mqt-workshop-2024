@@ -5,6 +5,11 @@ speakers:
 categories:
   - Talk
 ---
+Kyle Kairys (a,b), Gustavo J. R. Aroeira (a,b), Raphael Ribeiro (a,b)
+
+(a) Department of Chemistry, Emory University
+
+(b) Cherry Emmerson Center for Scientific Computation, Emory University
 
 Long-range intermolecular energy transport has been observed in optical microcavities. In this work, coherent energy transfer dynamics was probed for exciton wave packets in organic microcavities. This investigation implemented a microscopically detailed computational photonic wire model that evaluates spacetime resolved wave packet evolution under strong light-matter interaction conditions. Simulations were performed for variable light-matter coupling strength, total system size, and molecular excited-state energy fluctuations. This allowed us to elucidate their impact on the intermolecular energy transport in a multimode polaritonic system. 
  

@@ -2,5 +2,5 @@
 name: Tijs Karman
 first_name: Tijs
 last_name: Karman
-asociation: Radboud University Nijmegen
+asociation: RU Nijmegen, the Netherlands.
 ---

@@ -2,6 +2,6 @@
 name: Michal Tomza
 first_name: Michal 
 last_name: Tomza
-asociation: University of Warsaw
+asociation: Faculty of Physics, University of Warsaw, Poland
 status: invited
 ---

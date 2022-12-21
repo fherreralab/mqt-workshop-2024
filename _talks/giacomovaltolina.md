@@ -5,6 +5,10 @@ speakers:
 categories:
   - Talk
 ---
+G. Valtolina, J. Seifert, M. Duerbeck, S. Schaller, G. Meijer
+
+Fritz-Haber-Institut der Max-Planck-Gesellschaft, Faradayweg 4-6, 14195 Berlin, Germany
+
 Ultracold molecules hold great potential for future quantum technologies but chemical reactions have so far hampered their applications1. Recently, the development of several shielding methods has enabled the stabilization of molecular quantum gases against chemical reactions2,3,4. 
 
 This approach allowed the attainment of quantum degeneracy in quantum gas of fermionic molecules by evaporative cooling2. Leveraging on these results, we are building a new experimental apparatus with ultracold bosonic molecules strongly coupled to an optical cavity. Cavity-control of ultracold reactions offers new opportunities for the creation of a stable, strongly dipolar gas of bosonic molecules at high density.

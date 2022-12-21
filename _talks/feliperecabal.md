@@ -5,6 +5,11 @@ speakers:
 categories:
   - Talk
 ---
+Felipe Recabal (a) and Felipe Herrera (a,b)
+
+(a) Department of Physics, Universidad de Santiago de Chile, Santiago, Chile
+
+(b) Millennium Institute for Research in Optics (MIRO), Chile
 
 Nanojunction experiments with single molecules or quantum dots placed between macroscopic leads allow the exploration of quantum transport at the nanoscale [1]. We model these systems adopting a Markovian open-quantum system approach to compute the current-voltage response of small-size networks of interacting two-level conducting sites that are coupled to leads, and radiative and non-radiative reservoirs. We model the phenomenon of light-induced current, reported theoretically [2] and experimentally [3]. We validate our Markovian model by reproducing the experimental results on negative conductance [3] of single-molecule junctions with a two-site model in the absence of electromagnetic driving (Fig. 1). We show that Coulomb blocking of current can be neglected with an external electromagnetic driving source and non-radiative decay. At zero bias voltage, the photocurrent induced by the electromagnetic driving source has a direction that depends on the delocalized orbital. We finally extend these results by treating electron transport under vibrational strong coupling in an infrared cavity (Fig. 1c) and discuss possible verifications of our predictions in current experiments [5].
 

@@ -5,6 +5,12 @@ speakers:
 categories:
   - Talk
 ---
+Shubham Jain (a), Eric R. Hudson (b), Wesley C. Campbell (b), Victor V. Albert (a)
+
+(a) Joint Center for Quantum Information and Computer Science, NIST and University of Maryland, College Park, MD, USA
+
+(b) UCLA Center for Quantum Science and Engineering & Department of Physics and Astronomy, Los Angeles, California 90095, USA
+
 Molecular rotational state spaces, modeled by infinite dimensional Hilbert spaces of quantum rigid rotors, present new grounds for robust quantum information processing. They are, however, prone to noise induced by the environment that surrounds them. As a step towards making qubits realizable through these rotor space configurations, we study and contrast the nature of two different types of noise that molecules would be prone to. The first is a generalization of the brownian center of mass motion for quantum rigid bodies in a thermal environment[1]. This kind of noise is found to be local in the angular position and angular momentum phase space of the rotor and hence, compatible with already existing molecular codes[2]. The second noise models blackbody radiation affecting the molecules[3],[4]. We show that this kind of noise can be highly non-local in the molecule’s phase space and characterize instances where conventional (i.e., exact) error-correction can fail. We comment on the different strategies that can circumvent this no-go result.
 
 ![alt text](../../assets/speakers_figures/shubhamjain.png)

@@ -1,7 +1,7 @@
 ---
 name: Controlling ultracold RbCs molecules for applications in quantum technology
 speakers:
-  - Simon Cornish
+  - Simon L. Cornish
 categories:
   - Talk
 ---

@@ -5,6 +5,12 @@ speakers:
 categories:
   - Talk
 ---
+Ruth H. Tichauer (a,b), Ilia Sokolovskii (b), Johannes Feist (a), Gerrit Groenhof (b)
+
+(a) Departamento de Física, Teórica de la Materia Condensada and Condensed Matter Physics Center (IFIMAC), Universidad Autónoma de Madrid, Madrid, Spain
+
+(b) Department of Chemistry and NanoScience Center, University of Jyväskylä, Finland
+
 While the complex internal dynamics as well as the immediate material environment of
 organic chromophores limit their coherent emission and transport properties, coupling
 these photoactive molecules to nanophotonic structures has the potential to open a new

@@ -2,6 +2,6 @@
 name: Johannes Schachenmayer
 first_name: Johannes
 last_name: Schachenmayer
-asociation: Université de Strasbourg
+asociation: CNRS, CESQ/ISIS, Université de Strasbourg
 status: invited
 ---

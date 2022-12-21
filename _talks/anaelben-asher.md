@@ -5,6 +5,10 @@ speakers:
 categories:
   - Talk
 ---
+Anael Ben-Asher (a), Antonio I. Fernández-Domínguez (a), Johannes Feist (a)
+
+(a) Departamento de Física Teórica de la Materia Condensada and Condensed Matter Physics Center (IFIMAC), Universidad Autónoma de Madrid, E28049 Madrid, Spain
+
 Single-photon sources play a vital role in light-based quantum-information systems [1]. One well-known design for such sources is a coupled emitter-cavity system in the strong-coupling regime. Single-photon emission is then achieved through the photon blockade phenomenon, where the absorption of one photon induces large enough energy shifts in the system to prevent the absorption of subsequent photons [2,3]. We here propose a novel non-Hermitian photon blockade mechanism that works in the weak-coupling regime and does not require strong coupling. This mechanism does not rely on changes in the absorption energy, but on changes of the absorption bandwidth of the states and can be understood as the detuning of the effective state energies in the complex plane. We demonstrate an implementation of this idea using hybrid metallodielectric cavities that incorporate photon modes with different loss rates and show that high-purity single-photon emission at high repetition rates could be achievable in such systems.
 
 ![alt text](../../assets/speakers_figures/anaelbenasher.png)

@@ -2,6 +2,6 @@
 name: Eugenio Coronado
 first_name: Eugenio
 last_name: Coronado
-asociation: Universitat de Valencia
+asociation: Instituto Ciencia Molecular (ICMol). Universidad de Valencia
 status: invited
 ---

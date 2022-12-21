@@ -5,6 +5,11 @@ speakers:
 categories:
   - Talk
 ---
+Edgar Barriga Aguirre (a), Luis E. F. Foà Torres (b), Carlos Cárdenas Valencia (a)
+
+(a) Department of Physics, Faculty of Sciences, University of Chile, Santiago, Chile.
+
+(b) Department of Physics, Faculty of Physical and Mathematical Sciences, University of Chile, Santiago, Chile.
 
 Degeneracies in molecular systems have been studied extensively in the last decades. This kind of singularity has profound impacts on the dynamics since non-adiabatic effects arise due to the coupling between the electronic and nuclear motion [1]. For a N-state system the non-crossing rule requires a (N-1)(N+2)/2 conditions over internal coordinates to achieve a degeneracy point in configuration space. Despite this seemingly strong restriction conical intersections of more than two states have shown to be not just a curiosity but the rule [2]. The existence of degeneracies is not restricted to the field-free case. It has been shown that they can be created by external means [3,4]. 
 

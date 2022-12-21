@@ -173,7 +173,7 @@ days:
   
   - name: Friday
     talks:  
-        - name: TTo be Announced2
+        - name: Ab initio approaches to molecular quantum matter and quantum information science
           time_start: '09:00'
           time_end: '09:40'
         
