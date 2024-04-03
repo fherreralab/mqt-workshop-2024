@@ -3,14 +3,13 @@
   {% assign this_room = page %}
 
   <h1 class="display-5 mb-3">
-    Workshop Venue
+    Venue
   </h1>
-
-
+  
   {% if site.conference.location.map %}
   <div id="map" class="mt-4 mb-3"></div>
   <script>
-    var map = L.map('map').setView([-51.72833076229202, -72.51352817319757], 13);
+    var map = L.map('map').setView([-41.31827638637013, -72.98116834289549], 13);
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
@@ -22,13 +21,13 @@
   var marker = L.marker([-51.72833076229202, -72.51352817319757]).addTo(map);
 </script>
   {% endif %}
-<p>MQT2022 will be held at <a href="https://www.cormorandelasrocas.com">Cormoran de Las Rocas</a>,
-  located in the beautiful city of Puerto Natales, in the Chilean Patagonia. The venue is only a short trip from <b>Torres del Paine National Park</b>. 
-  Puerto Natales is a busy tourist destination in December. Participants are advised to make reservations with sufficient anticipation in any of the many lodges, cabins, 
-  hotels and hostals in the Puerto Natales area. Suggested alternative hotels include:
+<p>MQT 2024 will be held at <a href="https://puerto-varas.dreams.cl/hotel-y-spa/">Dreams Hotel</a> in the beautiful city of Puerto Varas, located at the southern end of Lake Llanquihue. 
+  The venue is only a short taxi trip from <a href="https://aeropuertodepuertomontt.cl/como-llegar/">El Tepual International Airport</a> (PMC) in Puerto Montt.
+  Puerto Varas is a busy tourist destination in December. Participants are advised to make reservations with sufficient anticipation in any of the many lodges, cabins, 
+  hotels and hostals in the area. 
 </p>
 
-<ul class="ul-dots">
+<!-- <ul class="ul-dots">
   <li><a href="https://www.hotelcostaustralis.com/en/halls-events/">Hotel Costaustralis</a></li>
   <li><a href="http://www.altiplanico.cl/en/altiplanico-hotel-puerto-natales/">Hotel Altiplanico Sur</a></li>
   <li><a href="https://remotahotel.com">Hotel Remota</a></li>
@@ -37,13 +36,12 @@
   <li> <a href="https://hostelamerindia.com">Amerindia Hostel</a></li>
 </ul>
 <p>More room options can be found on TripAdvisor or Booking.com. Feel free to contact felipe.herrera.u@usach.cl if you need help with your booking.</p>
-
+ -->
 <h1>Flight Information</h1>
 <div class="row mb-5">
   <ul class="ul-dots">
-    <li>Direct flights <b>Santiago – Puerto Natales</b> are available a few times per week via <b>JetSmart, Sky Airlines</b> and <b>Latam Airlines</b>.</li>
-    <li>Daily direct flights <b>Santiago – Punta Arenas</b> are available also via <b>JetSmart, Sky Airlines</b> and <b>Latam Airlines</b>.
-      Car rentals are available at the airport in Punta Arenas. The organizers can also arrange for van transportation to the workshop site. This scenic road trip takes about 3 hours.</li>
+    <li>Direct flights from <b>Santiago (SCL) to Puerto Montt (PMC)</b> are available several times a day via <b>JetSmart, Sky Airlines</b> and <b>Latam Airlines</b>.
+      Taxi and van rides to Puerto Varas (~20 min trip) can be booked directly at El Tepual Airport. </li>
   </ul>
 </div>
 {% include partials/footer.html %}
