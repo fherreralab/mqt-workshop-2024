@@ -1,8 +1,8 @@
-title: MQT 2022
+title: MQT 2024
 preposition: ''
 description:  
 baseurl: "" # Cambiar a "/" al momento de publicar
-url: "https://mqt2022.org"
+url: "https://mqt2024.org"
 
 # Build settings
 markdown: kramdown
@@ -68,6 +68,8 @@ conference:
         relative_url: /location/
       - name: Previous Editions
         menu:
+          - name: 2022
+            relative_url: /2022/
           - name: 2019
             relative_url: /2019/
 
