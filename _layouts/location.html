@@ -5,11 +5,13 @@
   <h1 class="display-5 mb-3">
     Venue
   </h1>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2996.7350674964973!2d-72.98752365942482!3d-41.31462674223274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE4JzUyLjciUyA3MsKwNTknMDUuOCJX!5e0!3m2!1ses-419!2scl!4v1712171051225!5m2!1ses-419!2scl" width="700" height="550" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
   
-  {% if site.conference.location.map %}
-  <div id="map" class="mt-4 mb-3"></div>
-  <script>
-    var map = L.map('map').setView([-41.31827638637013, -72.98116834289549], 13);
+  <!--
+    {% if site.conference.location.map %}
+  <div id="map" class="mt-4 mb-3"></div> <script>
+    var map = L.map('map').setView([-41.314630753732644, -72.98495414523337], 1);
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
@@ -18,10 +20,13 @@
       zoomOffset: -1,
       accessToken: 'pk.eyJ1IjoiYmFzdGlhZ2dlciIsImEiOiJjbDBpYXZueHEwMHZsM2JtaTRlb3J1NnExIn0.XJgcgiW6BD0XgFbWhSJQbw'
   }).addTo(map);
-  var marker = L.marker([-51.72833076229202, -72.51352817319757]).addTo(map);
-</script>
-  {% endif %}
-<p>MQT 2024 will be held at <a href="https://puerto-varas.dreams.cl/hotel-y-spa/">Dreams Hotel</a> in the beautiful city of Puerto Varas, located at the southern end of Lake Llanquihue. 
+  var marker = L.marker([-41.314630753732644, -72.98495414523337]).addTo(map);
+</script> 
+{% endif %}
+-->
+
+  
+<p>MQT 2024 will be held at <a href="https://www.choicehotels.com/chile/puerto-varas/park-inn-hotels/cl014">Park Inn by Raddison</a> in the beautiful city of Puerto Varas, located at the southern end of Lake Llanquihue. 
   The venue is only a short taxi trip from <a href="https://aeropuertodepuertomontt.cl/como-llegar/">El Tepual International Airport</a> (PMC) in Puerto Montt.
   Puerto Varas is a busy tourist destination in December. Participants are advised to make reservations with sufficient anticipation in any of the many lodges, cabins, 
   hotels and hostals in the area. 
@@ -41,7 +46,7 @@
 <div class="row mb-5">
   <ul class="ul-dots">
     <li>Direct flights from <b>Santiago (SCL) to Puerto Montt (PMC)</b> are available several times a day via <b>JetSmart, Sky Airlines</b> and <b>Latam Airlines</b>.
-      Taxi and van rides to Puerto Varas (~20 min trip) can be booked directly at El Tepual Airport. </li>
+      Taxi and van rides to Puerto Varas (~25 min trip) can be booked directly at El Tepual Airport or requested at the hotel venue. </li>
   </ul>
 </div>
 {% include partials/footer.html %}
