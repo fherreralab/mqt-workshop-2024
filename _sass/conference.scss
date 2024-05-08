@@ -319,3 +319,8 @@ main.container img {
     display: inline-block !important;
   }
 }
+
+// Para hacer que PAST EVENTS quede por encima del contenido
+.navbar-past-events {
+  z-index: 1000;
+}
