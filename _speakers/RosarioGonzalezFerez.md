@@ -1,6 +1,7 @@
 ---
-name: Rosario González-Feréz
+name: Rosario González-Férez
 first_name: Rosario 
-last_name: González-Feréz
+last_name: González-Férez
 asociation: Universidad de Granada
+status: invited
 ---
