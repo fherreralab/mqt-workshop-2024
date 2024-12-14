@@ -1,25 +1,35 @@
 ---
-name: IRMOF-1 for chemical sensing based in optical fibers
+name: Computational discovery and characterization of MOFs for chemical sensors coupled with fiber optics
 speakers:
   - Ruben Fritz
 categories:
   - Talk
 ---
-Rubén A. Fritz (a), Felipe Herrera (a,b)
 
-(a) Universidad de Santiago de Chile, Santiago, Chile.
+Metal-organic frameworks (MOFs) are not just crystalline materials; they hold immense
+potential for optical sensing applications [1]. Their unique characteristics, such as porosity,
+tuneability, and specificity, make them a perfect fit for this field. When coupled with
+optical fiber (OF), the sensor becomes portable, reusable, and non-destructive. While some
+single-crystal MOFs coupled with fiber optics systems have shown promising results, the
+materials used are still limited to a few well-studied examples [2, 3]. Sensitivity to different
+molecules and the performance of distinct system OF-MOFs upon loading are necessary to
+develop new sensor devices. The chemical space formed by MOFs is complex and large,
+but computational methods can efficiently explore and characterize the optical properties,
+providing an avenue for further design. In this work, we search for suitable MOF
+candidates for chemical sensors using chemoinformatics methods based on text pattern
+search of chemical names, compute adsorption isotherms with Monte-Carlo simulation to
+predict sensitivity limits for adsorbate concentration and the corresponding refractive index
+change is obtained using periodic density functional theory. We aim to establish the basis
+for a computational filter and characterization of MOFs for optical sensing of gases in
+interferometric setups that can be further used in quantum sensing protocols with
+nonclassical light.
 
-(b) Millennium Institute for Research in Optics MIRO, Chile.
+[1]. Anik, U., S. Timur, and Z. Dursun, Metal organic frameworks in electrochemical
+and optical sensing platforms: a review. Mikrochim Acta, 2019. 186(3): p. 196.
 
-Materials with optical properties suitable for portable, reusable, and non-destructive chemical sensors with high specificity are of great interest for the development of technology to monitor and detect chemical compounds of interest. Metal-organic frameworks (MOFs) are a promising material for optical sensing, the porous allows the adsorption of molecules, and upon loading their optical properties such as dielectric function change can be exploited for sensing purposes [1–3]. Metal-organic frameworks are extraordinary crystalline materials with an extensive list of properties and applications in several sciences. Their structure is formed by organics molecules as linkers and metal as nodes, in a modular way creating a network that in some cases generates pores that can adsorb other chemical compounds. The combinatorial ensemble of structures from their constitutive parts creates almost an infinite number of possible combinations and a very rich chemical space, that is extremely difficult to explore solely by experiments. Here we present a computational approach to study the changes in the optical properties of the IRMOF-1 upon loading of methane. The aim of this work is to set the basis for a computational filter and characterization of MOFs for chemical sensing purposes. 
+[2]. Zhou, K., et al., Perspective Single-crystal metal-organic frameworks for electronic
+and opto-electronic devices. Cell Reports Physical Science, 2023. 4(11).
 
-![alt text](../../assets/speakers_figures/rubenFritz.png)
-
-**Figure 1.** IRMOF-1 structure, a methane molecule inside the pore ( blue circle).
-
-
-[1]	C. Zhu, R. E. Gerald, and J. Huang, Metal-Organic Framework Materials Coupled to Optical Fibers for Chemical Sensing: A Review, IEEE Sensors Journal 21, 19647 (2021).
-
-[2]	C. Zhu, R. E. Gerald, Y. Chen, and J. Huang, Metal-Organic Framework Portable Chemical Sensor, Sensors and Actuators B: Chemical 321, 128608 (2020).
-
-[3]	C. Zhu, J. A. Perman, I. I. Rex E.  Gerald, S. Ma, and J. Huang, Chemical Detection Using a Metal–Organic Framework Single Crystal Coupled to an Optical Fiber, ACS Applied Materials & Interfaces (2019).  
+[3]. Zhu, C., et al., Chemical Detection Using a Metal-Organic Framework Single
+Crystal Coupled to an Optical Fiber. ACS Appl Mater Interfaces, 2019. 11(4): p.
+4393-4398.
