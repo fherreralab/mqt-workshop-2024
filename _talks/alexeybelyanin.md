@@ -1,24 +1,12 @@
 ---
-name: Quantum dynamics of molecules and quantum dots in dissipative nanocavities
+name: Quantum gates utilizing dark and bright states of molecules in dissipative cavities
 speakers:
   - Alexey Belyanin
 categories:
   - Talk
 ---
-M. Tokman, A. Behne, M. Erukhimova, Q. Chen, Y. Wang, A. Belyanin
+We present a general formalism and specific implementations of quantum gates based on interaction of light with open dissipative nanocavities containing ensembles of molecules. It is well known that many-body eigenstates in an ensemble of two or more quantum emitters are split into bright and dark entangled states with respect to the coupling to a cavity field [1]. While controlling individual molecules buried in a nanocavity is virtually impossible, one can use a whole cavity loaded with quantum emitters as a logical control qubit which interacts with an external incident photon serving as a flying qubit. The degrees of freedom of a photon (e.g., its polarization) are aLected as it scatters or reflects oL of a cavity, or interacts with a cavity while propagating in an evanescently coupled waveguide. This interaction can be controlled by changing the state of the molecules in a cavity with classical electromagnetic fields. In one of many possible implementations sketched in Fig. 1, an initial preparation of the state of molecules by a classical optical pulse controls the polarization state of the reflected photon [2].
 
-Department of Physics & Astronomy, Texas A&M University, College Station, TX, USA
+[1] M. Tokman et al., Dissipation-driven formation of entangled dark states in strongly-coupled inhomogeneous many- qubit systems in solid-state nanocavities, Phys. Rev. A 107, 013721 (2023).
 
-Strong coupling between quantum emitters such as molecules or quantum dots and a quantized electromagnetic field in a nanocavity drastically modifies both intramolecular electron-vibrational coupling and collective many-emitter dynamics. While the treatment of open quantum systems with many degrees of freedom is usually heavily numerical, here we develop a version of the stochastic Schroedinger-Langevin formalism which allows one to find semi-analytic solutions for nonperturbative nonlinear dynamics. We illustrate it with two examples. In the first example, the strong coupling regime is realized at the nonlinear resonance between electron, photon, and vibrational degrees of freedom. When the strength of such a parametric three-wave interaction is higher than the dissipation rates, entangled electron-photon-phonon states of GHZ type are formed and the emission spectra acquire a multi-peak structure. In the second example, we study quantum dynamics of many emitters strongly coupled to a spatially nonuniform field of a plasmonic nanocavity and taking into account the spread of their transition frequencies, dissipation, and decoherence for all degrees of freedom. We show how dissipation drives the system into robust many-emitter dark states that are decoupled from the cavity field. The ability to generate and control such states is an important problem for plasmonic nanocavities where the dissipation of a cavity mode is much faster than the relaxation in quantum emitters. 
-
-![alt text](../../assets/speakers_figures/alexeybelyanin.png)
-
-**Figure 1.** A sketch of an ensemble of molecules in a nonuniform field of a plasmonic nanocavity (left) and nonlinear resonance for a molecule in a cavity (right) showing the decay of the electron excitation at frequency ωe into a cavity mode photon at frequency ω and a phonon of a given vibrational mode at frequency Ω.  
-
-[1] M. Tokman, A. Behne, B. Torres, M. Erukhimova, Y. Wang, and A. Belyanin, Dissipation-driven formation of entangled dark states in strongly-coupled inhomogeneous many-qubit systems in solid-state nanocavities, Phys. 
-
-[Rev. A submitted](https://arxiv.org/abs/2207.09523)
-
-[2] M. Tokman et al., The universal model of strong coupling at the nonlinear parametric resonance in open cavity-QED systems, Phys. Rev. A 105, 053707 (2022).
-
-[3] M. Tokman et al., Generation and dynamics of entangled fermion-photon-phonon states in nanocavities, Nanophotonics 10, 491 (2021).
+[2] M. Tokman, J. Verma, and A. Belyanin, Quantum gates utilizing dark and bright states in open dissipative cavity QED, https://arxiv.org/abs/2403.09955.
