@@ -1,19 +1,9 @@
 ---
-name: Suppressed reactivity via cavity-induced selective vibrational cooling
+name: Materials Design through Quantum Mechanical Coupling
 speakers:
   - Blake Simpkins
 categories:
   - Talk
 ---
 
-B. S. Simpkins, (1) W. Ahn, (2) J. F. Triana, (3) F. Recabal, (3) A. D. Dunkelberger, (1) J. C. Owrutsky, (1) F. Herrera (3,4)
-
-(1) Chemistry Division, U.S. Naval Research Laboratory, Washington, DC 20375, United States 
-
-(2) UNAM National Nanotechnology Research Center and Institute of Materials Science and Nanotechnology, Bilkent University, Ankara, Turkey 
-
-(3) Department of Physics, Universidad de Santiago de Chile, Santiago, Chile
-
-(4) Millennium Institute for Research in Optics (MIRO), Chile
-
-Molecular vibrations can couple to optical cavities to create new hybrid states called polaritons.  The magnitude of this coupling, measured as the vacuum Rabi splitting (Ω), correlates with modified materials processes such as photon emission, molecular energy transfer, and chemical reaction rates.  In this talk, I will first discuss modeling and active control of cavity coupling to molecular vibrations.  Next, I will discuss results indicating modified chemical reaction rates for an alcoholysis addition reaction forming urethane monomers.  Cavity tuning was used to selectively couple to reactant, solvent, and product vibrational modes resulting in a chemical response that is cavity tuning dependent.  An open quantum system model attempting to rationalize such reaction suppression is presented which identifies bond-selective cooling via cavity-induced stationary population redistribution as the culprit.
+Sensing processes are simply a material’s response to some s1mulus. There are many conven1onal ways to tailor a material’s transduc1on response including nanostructuring to enhance surface effects, chemical func1onaliza1on for specificity, op1cal mode engineering to enhance op1cal cross-sec1on and/or tune frequency response, or system design to incorporate mul1-func1onality. In this program, we are interested in basic research aimed at dras1c or fundamental altera1ons of a material’s response to s1muli. For instance, introducing quantum mechanical coupling (interac1on) in material design is expected to improve material transduc1on and related sensing func1onality through increased sensi1vity and improved power efficiency. U1liza1on of quantum-mechanical interac1ons as a mode of materials design can take various forms. Coupling of material excita1ons (e.g., excitons, phonons, vibra1ons) to op1cal cavity modes has yielded exciton control, polariton forma1on and condensa1on, and opto-mechanical sensors opera1ng in the quantum squeezed regime. Tailored design of molecular excitonic and spin transi1ons has advanced the interroga1on of protein structure and func1on, and the examina1on of molecular-cavity optomechanical systems allows one to drive nonlinear popula1on of vibra1onal excita1ons, manipulate molecular dephasing, and influence chemical behavior.
