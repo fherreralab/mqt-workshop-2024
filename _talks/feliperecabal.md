@@ -1,28 +1,16 @@
 ---
-name: Driven-dissipative change transport in small networks; negative conductance and light-induced currents
+name: Non-canonical steady state of two coupled oscillators in the strong coupling regime
 speakers:
   - Felipe Recabal
 categories:
   - Talk
 ---
-Felipe Recabal (a) and Felipe Herrera (a,b)
 
-(a) Department of Physics, Universidad de Santiago de Chile, Santiago, Chile
+In a previous work, we describe the suppression of reaction rate inside a cavity where the electromagnetic vacuum is in strong coupling with an ensemble of molecule [1]. We model the system through a master equation where the local-Lindblad terms describe the relaxation processes of the cavity mode and the molecular vibrational modes. We show that local- Lindblad theory is necessary to obtain a non-canonical steady state for the system that describes the reaction rate suppression. Meanwhile, Redfield master equation in the system eigenbasis leads to canonical steady state that does not capture the resonant behavior.
+Based on the previous discussion, in the work we microscopically derive a master equation for two coupled harmonic oscillators in the strong coupling regime (see Fig.1(a)). The derivation considers weak coupling and Born-Markov approximation for the system-bath interaction. The master equation obtained contains local terms, that describes relaxation, and non-local terms, due to include the oscillator coupling in the derivation [2,3]. Results shows that the non-local terms are associate to production of coherences induced by the baths, leading the system to a canonical steady state. When the non-local terms are neglected, the system have a non-canonical steady state, with results that agree with the resonant behavior observed using local Lindblad master equation (see Fig.1(b)). Possible ways to neglect the non-local terms are discussed, including tuning temperature and energy detuning, and the inclusion of non-linear system bath interactions.
 
-(b) Millennium Institute for Research in Optics (MIRO), Chile
+[1] W. Ahn, J. F. Triana, F. Recabal, F. Herrera & B. S. Simpkins, Science, 380(6650), 1165- 1168 (2023).
 
-Nanojunction experiments with single molecules or quantum dots placed between macroscopic leads allow the exploration of quantum transport at the nanoscale [1]. We model these systems adopting a Markovian open-quantum system approach to compute the current-voltage response of small-size networks of interacting two-level conducting sites that are coupled to leads, and radiative and non-radiative reservoirs. We model the phenomenon of light-induced current, reported theoretically [2] and experimentally [3]. We validate our Markovian model by reproducing the experimental results on negative conductance [3] of single-molecule junctions with a two-site model in the absence of electromagnetic driving (Fig. 1). We show that Coulomb blocking of current can be neglected with an external electromagnetic driving source and non-radiative decay. At zero bias voltage, the photocurrent induced by the electromagnetic driving source has a direction that depends on the delocalized orbital. We finally extend these results by treating electron transport under vibrational strong coupling in an infrared cavity (Fig. 1c) and discuss possible verifications of our predictions in current experiments [5].
+[2] C. Joshi, et al., Phys. Rev. A, 90(6), 063815 (2014). 
 
-![alt text](../../assets/speakers_figures/felipeRecabal.png)
-
-**Figure 1.** (a) Dimer model. (b) Modelled (solid line) y experimental (dotted line) current-voltage curve of the molecule. (c) Splitting of vibrational levels by a cavity. Experimental data extracted from [5].
-
-[1] M. Thoss, and F. Evers, J. Chem. Phys., 148, 030901 (2018).
-
-[2] M. Galperin, and A. Nitzan, Phys. Rev. Lett., 95, 206802 (2005).
-
-[3] J. Zhou, K. Wang, B. Xu, and Y. Dubi, J. Am. Chem. Soc., 140, 70-73 (2018).
-
-[4] M. Perrin, R. Frisenda, M. Koole, et al., Nat. Nanotechnol., 9, 830–834 (2014).
-
-[5] F. Herrera, and J. Owrutsky, J. Chem. Phys., 152, 100902 (2020).
+[3] J. Sousa, et al., Phys. Rev. A, 106(3), 032401 (2022).

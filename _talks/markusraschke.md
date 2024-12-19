@@ -1,26 +1,19 @@
 ---
-name: Quantum vibrational microscopy and sensing
+name: Quantum vibrational nano-imaging; a molecular ruler to image structure, coupling, and disorder in molecular materials
 speakers:
   - Markus Rashcke
 categories:
   - Talk
 ---
-The quest from low-loss quantum materials, to efficient heat transport, high conductivity transistors, and chemical reactions all rely on understanding and engineering the local density of vibrational modes. In this talk, I will discuss the use of molecular vibrations and IR resonant nano-wire coupled molecular interactions as sensors and local probes for inter- to intra-molecular coupling, thermalization, and dissipation. This includes the development of new nano-imaging techniques that provide a qualitatively new window into the spatial, temporal, and low energy spectral vibrational landscape of molecular and other quantum materials. These new vibrational quantum scopes harness ideas developed in the context of quantum optomechanical control of motion to image the elementary processes of vibrational and polaron dynamics in ultrafast vibrational nano-movies with nanometer and femtosecond spatio-temporal resolution.
+Properties and functions of molecular materials often emerge from intermolecular interactions and associated nanoscale structure and morphology. However, defects and disorder disturb from energy conversion to carrier transport. Conventional microscopy techniques lack spatial resolution and sensitivity to the low-energy scales of intermolecular interactions and intra-molecular energy relaxation. We address these problems in novel combinations of spatio-spectral and spatio-temporal infrared nano-imaging. Here, coupling between molecular vibrations leads to collective modes, with distinct spectral features sensitive to intermolecular distance and relative molecular orientation. Resolving this vibrational exciton formation as a molecular ruler in IR nano-spectroscopy, we image competing phases and local disorder in molecular solids – information inaccessible by conventional X-ray or electron-based crystallography. In the application to the growth of porphyrin model organic electronic nanocrystals we observe the evolution of defects in competing amorphous and crystalline phases with nanometer spatial resolution [1,5]. Similarly, imaging vibrational coupling in polymers [2] and molecular monolayer [3], we resolve domain formation from the molecular to nano-scale. Further, in another modality through mode selective coupling of vibrational resonances to IR nano-antennas and associated Purcell-enhanced modification of vibrational lifetimes, we resolve intramolecular vibrational interaction and vibrational energy redistribution (IVR) [4]. I will summarize with a perspective for nm-fs resolved precision vibrational nano-spectroscopy for functional imaging in the low-energy landscape of molecular matter.
 
-![alt text](../../assets/speakers_figures/markusRaschke.png)
+[1] Muller, et al., PNAS 117, 7030 (2020); 
 
-**Figure 1**. Infrared nano-imaging of spatial delocalization of the vibrational wavefunction, serving as quantum sensor and molecular ruler of molecular disorder, crystallinity, and intermolecular coupling that control the properties of functional molecular materials at their elementary level.
+[2] Gray, et al., Nano Lett. 21, 5754 (2021);
 
-[1] K.-D. Park et al., Science Adv. 5, eaav5931 (2019).
+[3] Dönges et al. Nano Lett. 21, 6463 (2021);
 
-[2] E. A. Muller, et al., ACS Photonics 5, 3594 (2018).
+[4] Wilcken et al. PNAS 120, e2220852120 (2023);  
 
-[3] B. Metzger et al., Phys. Rev. Lett. 123, 153001 (2019). 
+[5] Puro, et al. 24, 1909 (2024).
 
-[4] E. A. Muller, et al., PNAS 117, 7030 (2020).
-
-[5] M. A. May et al. Nano Lett. 21, 522 (2020). 
-
-[6] D. Yoo, et al. Nature Photonics. 15, 125 (2021).
-
-[7] T. P. Gray, et al. Nano Lett. 21, 5754 (2021).

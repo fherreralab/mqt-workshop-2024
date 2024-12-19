@@ -1,22 +1,10 @@
 ---
-name: Towards cavity-controlled ultracold chemistry
+name: Towards quantum control of complex cold molecules inside a cavity
 speakers:
   - Giacomo Valtolina
 categories:
   - Talk
 ---
-G. Valtolina, J. Seifert, M. Duerbeck, S. Schaller, G. Meijer
+G. Valtolina
 
-Fritz-Haber-Institut der Max-Planck-Gesellschaft, Faradayweg 4-6, 14195 Berlin, Germany
-
-Ultracold molecules hold great potential for future quantum technologies but chemical reactions have so far hampered their applications1. Recently, the development of several shielding methods has enabled the stabilization of molecular quantum gases against chemical reactions2,3,4. 
-
-This approach allowed the attainment of quantum degeneracy in quantum gas of fermionic molecules by evaporative cooling2. Leveraging on these results, we are building a new experimental apparatus with ultracold bosonic molecules strongly coupled to an optical cavity. Cavity-control of ultracold reactions offers new opportunities for the creation of a stable, strongly dipolar gas of bosonic molecules at high density.
-
-[1] S. Ospelkaus et al. Science 327 (5967), 853-857 (2010)
-
-[2] G. Valtolina et al. Nature 588 (7837), 239-243 (2020)
-
-[3] K. Matsuda, et al. Science 370 (6522), 1324-1327 (2020)
-
-[4] J.R. Li et al. Nature Physics 17 (10), 1144-1148 (2021)
+The ability to control chemistry with optical cavities is enticing, but theory and experiment have not yet fully agreed. Cold and ultracold molecules oLer near ideal state preparation which can help in identifying the parameter space where cavities can aLect chemical reactions. Here, we want to present two diLerent experimental strategies to study polariton chemistry in the gas phase with quantum-state resolution. The first experiment entails the creation of an ultracold molecular gas of dysprosium dimers strongly coupled to an optical cavity. The second focuses on the creation of internally cold molecular ions of dysprosium monoxide. With these platforms, we plan to develop techniques for cavity-control of bimolecular reactions and for photo-ionization and -dissociation of molecular species.
